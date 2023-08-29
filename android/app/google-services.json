@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "865288888233",
+    "project_id": "frwk-c5ffd",
+    "storage_bucket": "frwk-c5ffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865288888233:android:2c058a5056410aa3eb6eb8",
+        "android_client_info": {
+          "package_name": "br.com.frwk.ecomm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865288888233-4rt0lgha1bfmd5valspnvt6jnsegdfjh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0qR4j57vOXH8H0sj53F2w9I5x6za6u_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865288888233-4rt0lgha1bfmd5valspnvt6jnsegdfjh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "865288888233-ej361jamt9fkko555jp6m7ujkbkllu01.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.frwk.ecomm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
