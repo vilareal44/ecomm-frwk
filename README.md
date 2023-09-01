@@ -2,6 +2,20 @@
 
 Ecomm project for FRWK 
 
+## Instruções
+
+Para acessar a aplicação, utilize as credenciais abaixo:
+
+user: teste@codebase.com.br
+pass: framework
+
+
+## Plataformas validadas
+
+ - [x] iOs
+ - [x] Android
+ - [x] Web
+
 ## Requisitos
 
  - [x] O cliente deve realizar o login via Firebase.
@@ -20,10 +34,10 @@ Ecomm project for FRWK
 
 ## TODO
 
-Testes unitários
-Reorganizar estrutura de pastas 
-Implementar telas de cadastro de usuário e recuperação de senha
-Definição completa de schema de cores para tema
+ - [] Testes unitários
+ - [] Reorganizar estrutura de pastas 
+ - [] Implementar telas de cadastro de usuário e recuperação de senha
+ - [] Definição completa de schema de cores para tema
 
 
 
