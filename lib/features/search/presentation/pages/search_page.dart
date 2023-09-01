@@ -48,17 +48,19 @@ class SearchView extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = context.l10n;
 
-    return Column(
-      children: [
-        AppTextField(
-          // readOnly: state.status.isInProgress,
-          hintText: l10n.searchPageTypeSearchQueryMessage,
-          onChanged: (query) =>
-              context.read<SearchBloc>().add(SearchQueryChanged(query)),
-        ),
-        const Gap(AppSpacing.xlg),
-        const SearchResultView(),
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          AppTextField(
+            // readOnly: state.status.isInProgress,
+            hintText: l10n.searchPageTypeSearchQueryMessage,
+            onChanged: (query) =>
+                context.read<SearchBloc>().add(SearchQueryChanged(query)),
+          ),
+          const Gap(AppSpacing.xlg),
+          const SearchResultView(),
+        ],
+      ),
     );
   }
 }
