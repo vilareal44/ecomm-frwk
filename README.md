@@ -2,6 +2,8 @@
 
 Ecomm project for FRWK 
 
+[![Ecomm preview video](https://i.ytimg.com/vi/7_ODQPQH2a0/maxresdefault.jpg)](https://www.youtube.com/watch?v=7_ODQPQH2a0 "Ecomm app")    
+
 ## Instruções
 
 Para acessar a aplicação, utilize as credenciais abaixo:
