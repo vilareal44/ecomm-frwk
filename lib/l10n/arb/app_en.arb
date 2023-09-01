@@ -1,6 +1,23 @@
 {
     "@@locale": "en",
+    "logoutButton": "logout",
+    "notFoundMessage": "Not found",
     "homeBottomNavLabel": "Home",
     "searchBottomNavLabel": "Search",
-    "shoppingCartBottomNavLabel": "Shopping Cart"
+    "shoppingCartBottomNavLabel": "Shopping Cart",
+    "shoppingCartPageTitle":"Cart summary",
+    "shoppingCartPageTotal":"Total",
+    "shoppingCartPageCheckoutButton":"Checkout",
+    "shoppingCartPageEmptyCartMessage":"Your shopping cart it's empty",
+    "shoppingCartPageClearCart":"Clear shopping cart",
+    "productDetailPageQuantity":"Quantity",
+    "productDetailPageAddToCartButton":"Add to cart",
+    "searchPageNoProductFoundMessage": "No product found",
+    "searchPageTypeSearchQueryMessage": "Enter the query for search",
+    "searchPageOperationFaileMessage": "Operation failed",
+    "signInButton": "Sign-in",
+    "signInInvalidPasswordErrorMessage": "Invalid password",
+    "signInInvalidEmailErrorMessage": "Invalid email",
+    "signInAuthenticationErrorMessage": "Authentication failure. Check your username/password.",
+    "signInPasswordHint": "password"
 }

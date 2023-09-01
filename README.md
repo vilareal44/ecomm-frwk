@@ -1,16 +1,29 @@
 # ecomm
 
-A new Flutter project.
+Ecomm project for FRWK 
 
-## Getting Started
+## Requisitos
 
-This project is a starting point for a Flutter application.
+ - [x] O cliente deve realizar o login via Firebase.
+ - [x] O cliente poderá pesquisar pelo produto e escolher aquele que quer comprar;
+ - [x] Deve existir um carrinho de compras onde será listado os produtos que o cliente selecionou.
+ - [x] Deve possuir um botão checkout (gerar um pdf como se fosse um comprovante).
+ - [x] Internacionalização da aplicação para Português e Inglês (Através da localização do dispositivo);
+ - [x] Usuário poderá realizar Logout da aplicação;
+ - [ ] Testes unitários
+ - [x] Clean Architecture;
+ - [x] BLOC
+ - [x] Esvaziar o carrinho após checkout
+ - [x] Manter carrinho armazenado após fechar aplicação
+ - [x] Permitir usuário selecionar idioma 
+ - [x] Firestore
 
-A few resources to get you started if this is your first Flutter project:
+## TODO
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Testes unitários
+Reorganizar estrutura de pastas 
+Implementar telas de cadastro de usuário e recuperação de senha
+Definição completa de schema de cores para tema
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+

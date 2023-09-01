@@ -1,6 +1,23 @@
 {
     "@@locale": "pt",
+    "logoutButton": "sair",
+    "notFoundMessage": "Não encontrado",
     "homeBottomNavLabel": "Home",
     "searchBottomNavLabel": "Busca",
-    "shoppingCartBottomNavLabel": "Carrinho"
+    "shoppingCartBottomNavLabel": "Carrinho",
+    "shoppingCartPageTitle":"Resumo do carrinho",
+    "shoppingCartPageTotal":"Total",
+    "shoppingCartPageCheckoutButton":"Finalizar compra",
+    "shoppingCartPageEmptyCartMessage":"Seu carrinho está vazio",
+    "shoppingCartPageClearCart":"Esvaziar carrinho",
+    "productDetailPageQuantity":"Quantidade",
+    "productDetailPageAddToCartButton":"Adicionar ao carrinho",
+    "searchPageNoProductFoundMessage": "Nenhum produto encontrato",
+    "searchPageTypeSearchQueryMessage": "Digite o termo para pesquisa",
+    "searchPageOperationFaileMessage": "Erro ao processar operação",
+    "signInButton": "Entrar",
+    "signInInvalidPasswordErrorMessage": "Senha inválida",
+    "signInInvalidEmailErrorMessage": "Email inválido",
+    "signInAuthenticationErrorMessage": "Falha na autenticação. Usuário ou senha inválidos.",
+    "signInPasswordHint": "senha"
 }
