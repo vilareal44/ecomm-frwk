@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:ecomm/features/product/data/models/product_model.dart';
+import 'package:flutter/material.dart';
 
 import '../../domain/repositories/product_repository.dart';
 
@@ -28,8 +29,18 @@ class ProductRepositoryImpl implements ProductRepository {
   }
 
   @override
-  Future<List<ProductModel>> search(String query) async {
-    final snapshots = await collection.where('name', isEqualTo: query).get();
+  Future<List<ProductModel>?> search(String query) async {
+    if (query.isEmpty) return [];
+
+    final strFrontCode = query.substring(0, query.length - 1);
+    final strEndCode = query.characters.last;
+    final limit =
+        strFrontCode + String.fromCharCode(strEndCode.codeUnitAt(0) + 1);
+
+    final snapshots = await collection
+        .where('name', isGreaterThanOrEqualTo: query)
+        .where('name', isLessThan: limit)
+        .get();
 
     return snapshots.docs.map((e) => e.data()).toList();
   }

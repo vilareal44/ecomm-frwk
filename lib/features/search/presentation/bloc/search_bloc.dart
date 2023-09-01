@@ -38,6 +38,11 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
     emit(state.copyWith(searchInput: query));
     emit(state.copyWith(status: SearchStatus.loading));
 
+    if (event.query.isEmpty) {
+      add(const FindAllRequested());
+      return;
+    }
+
     final productsEither =
         await _searchProductUseCase.call(Params(query: event.query));
 
